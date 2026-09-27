@@ -1,0 +1,30 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Maven
+target/
+
+# Compiled Java
+*.class
+
+# Local reports generated during execution
+# Keep portfolio documents/HTML report if intentionally committed.
+reports/*.tmp
+
+# Failure screenshots generated locally
+screenshots/failed/*.png
+
+# Local configuration / secrets
+# Keep a template file in Git if needed.
+src/test/resources/config.properties
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
